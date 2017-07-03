@@ -1,0 +1,248 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+.introduction { 
+    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
+    text-align: center;
+    background: url('https://iqglobal.intel.com/wp-content/uploads/code-blurry.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 750px;
+}
+
+.centralizando{
+  padding-top:150px;
+}
+
+body{
+  margin:0;
+  padding:0;
+  color: white;
+  background:#888;
+  font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 40px;
+}
+
+.nomeprojeto{
+  font-family:"Helvetica",Arial,sans-serif;
+  font-size: 20px;
+  color: white;
+}
+
+.titulohabidades{
+  text-align: center;
+  font-family:"Helvetica",Arial,sans-serif;
+  font-size: 20px;
+  color: white;
+}
+
+
+
+.project {
+  text-decoration: none;
+  color: #008080;
+  display: inline-block;
+  overflow: hidden;
+  border: 2px solid lightblue;
+  height: 280px;
+  width: 250px;
+  margin: 40px 100px;
+
+}
+
+.project-pic {
+  width: 100%;
+  height: 280px;
+  border-bottom: 2px solid lightblue;
+}
+
+.project-title {
+  font-weight: bold;
+}
+
+.contato { 
+    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
+    text-align: center;
+    background: url('https://40.media.tumblr.com/1b916597d3e174399cb7adadddb66ede/tumblr_nt5uk4psl31ud7rr3o1_1280.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 605px;
+}
+
+
+.projeto { 
+    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
+    text-align: center;
+    background: url('http://www.hdwallpaper.nu/wp-content/uploads/2017/03/keyboard-7.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 700px;
+}
+
+.sobre { 
+    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
+    text-align: center;
+    background: url('https://static.pexels.com/photos/2324/skyline-buildings-new-york-skyscrapers.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 555px;
+}
+
+.nomesobre{
+    font-family:"Helvetica",Arial,sans-serif;
+    font-size: 30px;
+    color: white;
+}
+
+
+
+.img-circle {
+  margin-top: 150px;
+  border: 1px outset rgba(255, 255, 255, 0.3);
+  box-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+  
+}
+
+.final {
+      padding-top: 100px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    text-align: center;
+    background: url('https://www.muscles.com.br/public/uploads/columns/kcfinder/1/images/Fisiculturistas/Masculino/Exterior/Arnold%20Schwarzenegger/life-advice-from-arnold-schwarzenegger.jpg') no-repeat center top fixed;
+    background-size: cover;
+    height: 600px;
+}
+
+/* Redes Sociais */
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    color: white;
+}
+/* github */
+.fa-github {
+    color: white;
+}
+/* linkedin */
+.fa-linkedin {
+    color: white;
+}
+
+/* instagram */
+.fa-instagram {
+    color: white;
+}
+
+/* Fim das Redes Sociais */
+
+/* Botão de ir ao topo */
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: red; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+}
+
+#myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+}
+
+.habilidades { 
+    padding-top: 20px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 20px;
+    text-align: center;
+    background: url('https://alexrosa.net/wp-content/uploads/2016/07/wallpaper_1366x768_keepcalm-1.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 1000px;
+}
+
+/* Habilidades */
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+    width: 100%; /* Full width */
+    background-color: #ddd; /* Grey background */
+}
+
+.skills {
+    text-align: right; /* Right-align text */
+    padding-right: 20px; /* Add some right padding */
+    line-height: 40px; /* Set the line-height to center the text inside the skill bar, and to expand the height of the container */
+    color: white; /* White text color */
+}
+
+.html {width: 90%; background-color: #4CAF50;} /* Green */
+.css {width: 75%; background-color: #2196F3;} /* Blue */
+.js {width: 30%; background-color: #f44336;} /* Red */
+.php {width: 55%; background-color: #808080;} /* Dark Grey */
+
+/* Habilidades */
+
+/* botão email */
+.email {
+    opacity: 0.7;
+    font-family:"Helvetica",Arial,sans-serif;
+    font-size: 20px;
+}
+
